@@ -1,4 +1,7 @@
 package com.otaku.otakulist.repositories;
 
-public class UsersRepo {
+import com.otaku.otakulist.models.User;
+import org.springframework.data.repository.CrudRepository;
+
+public interface UsersRepo extends CrudRepository<User,Long> {
 }
